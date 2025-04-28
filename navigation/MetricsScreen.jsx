@@ -3,6 +3,7 @@ import styles from '../navStyles/styles';
 import { View, Text, TouchableOpacity, Alert, ActivityIndicator } from 'react-native';
 import { createAssetTransaction } from '../Account/assetTrx';
 import {handleTrx} from '../Account/connectAccount';
+import { StatusBar } from "expo-status-bar";
 const MetricsScreen = () => {
     const [loading, setLoading] = useState(false)
 
@@ -28,6 +29,7 @@ const MetricsScreen = () => {
         <Text style={styles.buttonText}>Trx</Text>
       </TouchableOpacity>
         )}
+           <StatusBar style="auto" />
       </View>
     );
 };
