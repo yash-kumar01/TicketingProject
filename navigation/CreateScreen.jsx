@@ -1,6 +1,7 @@
 import React from 'react';
 import { Text, View, TouchableOpacity,Image } from 'react-native';
 import styles from '../navStyles/styles';
+import { StatusBar } from "expo-status-bar";
 
 const CreateScreen = ({ setCurrentScreen }) => {
     const createEvent =()=> {
@@ -33,6 +34,7 @@ const CreateScreen = ({ setCurrentScreen }) => {
         </TouchableOpacity>
 
         </View>
+        <StatusBar style="auto" />
 
     </View>
 
