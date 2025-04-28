@@ -1,4 +1,4 @@
-# TicketingProject
+# Ticketing Platform
 **Design and development of a mobile application for ticketing on blockchain**
 
 This project presents the development of a peer-to-peer (P2P) ticketing platform leveraging blockchain technology. The project aims to create a decentralized marketplace where users can create, buy, and trade event tickets securely and transparently, eliminating common issues such as fraud, scalping, and excessive fees.
