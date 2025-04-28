@@ -39,7 +39,7 @@ const HomeScreen = ({ setCurrentScreen }) => {
     };
 
     return (
-        // <ScrollView>
+        <ScrollView>
         <View style={styles.layout}>
             <Image source={require('../assets/2).png')}
       style={styles.homeImg}
@@ -94,7 +94,7 @@ const HomeScreen = ({ setCurrentScreen }) => {
 
             <StatusBar style="auto" />
         </View>
-        // </ScrollView>
+         </ScrollView>
     );
 };
 
