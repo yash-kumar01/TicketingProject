@@ -151,27 +151,30 @@ export default StyleSheet.create({
   // Main Containers
   container: {
     flex: 1,
+    // backgroundColor: '#1a1a1a', // gray background
     backgroundColor: '#121212', // Dark background
-    padding: 10,
+    // padding: 10,
   },
   contentContainer: {
     flex: 1,
     justifyContent: 'flex-start',
-    backgroundColor: '#1a1a1a', // Dark gray for main content
-    padding: 10,
+    // backgroundColor: '#1a1a1a', // gray for main content
+    backgroundColor: '#181818', // Dark navbar
+    padding: 12,
   },
   screenContainer: {
     flex: 1,
     justifyContent: 'flex-start',
     alignItems: 'stretch',
-    backgroundColor: '#1a1a1a', // Darker shade for screens
+    // backgroundColor: '#1a1a1a', // gray shade for screens
+    backgroundColor: '#121212', // Darker shade for screens
     padding: 10,
   },
 
   // Navbar
   navBar: {
     flexDirection: 'row',
-    height: 60,
+    height: 56,
     backgroundColor: '#181818', // Dark navbar
     borderTopWidth: 1,
     borderTopColor: '#333',
