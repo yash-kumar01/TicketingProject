@@ -1,0 +1,50 @@
+{
+    "categories": [
+      { "label": "Concert", "value": "Concert" },
+      { "label": "Workshop", "value": "Workshop" },
+      { "label": "Conference", "value": "Conference" },
+      { "label": "Sports", "value": "Sports" },
+      { "label": "Festival", "value": "Festival" }
+    ],
+    "countries": [
+      { "label": "India", "value": "India" },
+      { "label": "England", "value": "England" },
+      { "label": "USA", "value": "USA" },
+      { "label": "France", "value": "France" },
+      { "label": "Germany", "value": "Germany" },
+      { "label": "Russia", "value": "Russia" }
+    ],
+    "cities": [
+      { "label": "Delhi", "value": "Delhi" },
+      { "label": "Stanford", "value": "Stanford" },
+      { "label": "Los Angeles", "value": "Los Angeles" },
+      { "label": "Paris", "value": "Paris" },
+      { "label": "Munich", "value": "Munich" },
+      { "label": "Moscow", "value": "Moscow" }
+    ],
+    "locations": [
+      { "label": "Stadium", "value": "Stadium" },
+      { "label": "Convention Center", "value": "Convention Center" },
+      { "label": "Club House", "value": "Club House" },
+      { "label": "Open Ground", "value": "Open Ground" },
+      { "label": "Community Hall", "value": "Community Hall" },
+      { "label": "Auditorium", "value": "Auditorium" }
+    ],
+    "availableDates": [
+      { "label": "01-04-2025", "value": "01-04-2025" },
+      { "label": "15-05-2025", "value": "15-05-2025" },
+      { "label": "20-06-2025", "value": "20-06-2025" },
+      { "label": "10-07-2025", "value": "10-07-2025" },
+      { "label": "25-08-2025", "value": "25-08-2025" },
+      { "label": "30-09-2025", "value": "30-09-2025" }
+    ],
+    "events": [
+        { "label": "Music Festival", "value": "Music Festival" },
+        { "label": "Art Exhibition", "value": "Art Exhibition" },
+        { "label": "Rock Band", "value": "Rock Band" },
+        { "label": "Corona", "value": "Corona" },
+        { "label": "Music Party", "value": "Music Party" },
+        { "label": "C", "value": "C" }
+    ]
+  }
+  

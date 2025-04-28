@@ -1,0 +1,135 @@
+
+// "Fake" API data to use in your app
+{
+    "tickets": [
+      {
+          "ASAID": 123456,
+          "creator": "7HSDHFA5D67FVD7GD3HSS3S5DF7ASFDS3F7DS7A6D7G7FDS7FA7G2FDS",
+          "metadata": {
+            "event": "Music Festival 2025",
+            "location": "Los Angeles, CA",
+            "date": "2025-08-15",
+            "time": "18:00",
+            "seat": "VIP-1",
+            "description": "VIP ticket for Music Festival 2025",
+            "image_url": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=967&q=80"
+          },
+          "assetname": "MF2025VIP",
+          "unitname": "MFVIP",
+          "manager": "7HSDHFA5D67FVD7GD3HSS3S5DF7ASFDS3F7DS7A6D7G7FDS7FA7G2FDS"
+        },
+        {
+          "ASAID": 789012,
+          "creator": "98SDF7AS8DF7S8D7F9D8F7SD89F7DSF98DSF7A9D8F7A9S7D8F7S8DF",
+          "metadata": {
+            "event": "Art Exhibition",
+            "location": "New York City, NY",
+            "date": "2025-09-10",
+            "time": "14:00",
+            "seat": "General Admission",
+            "description": "Entry ticket to the Art Exhibition 2025",
+            "image_url": "https://images.unsplash.com/photo-1567014543648-e4391c989aab?auto=format&fit=crop&w=1050&q=80"
+          },
+          "assetname": "AE2025GEN",
+          "unitname": "AEGEN",
+          "manager": "98SDF7AS8DF7S8D7F9D8F7SD89F7DSF98DSF7A9D8F7A9S7D8F7S8DF"
+        },
+        {
+          "ASAID": 345678,
+          "creator": "2JH3F4G56H7J8K9L0M1N2B3V4C5X6Z7Q8W9E0R1T2Y3U4I5O6P7A8S",
+          "metadata": {
+            "event": "Rock Band Live",
+            "location": "San Francisco, CA",
+            "date": "2025-07-20",
+            "time": "20:00",
+            "seat": "Front Row",
+            "description": "Front row ticket for the Rock Band Live concert",
+            "image_url": "https://images.unsplash.com/photo-1511376777868-611b54f68947?auto=format&fit=crop&w=967&q=80"
+          },
+          "assetname": "RBL2025FR",
+          "unitname": "RBLFR",
+          "manager": "2JH3F4G56H7J8K9L0M1N2B3V4C5X6Z7Q8W9E0R1T2Y3U4I5O6P7A8S"
+        },
+        {
+          "ASAID": 456789,
+          "creator": "5GDF6J7K8L9M1N2B3V4C5X6Z7Q8W9E0R1T2Y3U4I5O6P7A8S9D0F1G",
+          "metadata": {
+              "event": "Tech Conference 2025",
+              "location": "Silicon Valley, CA",
+              "date": "2025-10-05",
+              "time": "09:00",
+              "seat": "Speaker Zone",
+              "description": "Access to the Tech Conference 2025 with exclusive speaker sessions.",
+              "image_url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=967&q=80"
+          },
+          "assetname": "TC2025SPK",
+          "unitname": "TCSPK",
+          "manager": "5GDF6J7K8L9M1N2B3V4C5X6Z7Q8W9E0R1T2Y3U4I5O6P7A8S9D0F1G"
+      },
+      {
+          "ASAID": 901234,
+          "creator": "8QWER7TYUI9OP0ASDF3GH4JKL5ZXCV6BN7M8QW9ER0TY1UI2OP3ASDF",
+          "metadata": {
+              "event": "Food and Wine Festival",
+              "location": "Napa Valley, CA",
+              "date": "2025-11-15",
+              "time": "12:00",
+              "seat": "Premium Lounge",
+              "description": "Entry to the Food and Wine Festival with access to the Premium Lounge.",
+              "image_url": "https://images.unsplash.com/photo-1528696437480-5e19d0c85b78?auto=format&fit=crop&w=967&q=80"
+          },
+          "assetname": "FWF2025PL",
+          "unitname": "FWFPL",
+          "manager": "8QWER7TYUI9OP0ASDF3GH4JKL5ZXCV6BN7M8QW9ER0TY1UI2OP3ASDF"
+      },
+      {
+          "ASAID": 567890,
+          "creator": "4DF6J7K8L9M1N2B3V4C5X6Z7Q8W9E0R1T2Y3U4I5O6P7A8S9D0F1G2H",
+          "metadata": {
+              "event": "Startup Pitch Night",
+              "location": "Austin, TX",
+              "date": "2025-09-25",
+              "time": "18:30",
+              "seat": "Investor Zone",
+              "description": "Ticket to the Startup Pitch Night in Austin. Networking with investors.",
+              "image_url": "https://images.unsplash.com/photo-1551817958-3f3a39d3d157?auto=format&fit=crop&w=967&q=80"
+          },
+          "assetname": "SPN2025IZ",
+          "unitname": "SPNIZ",
+          "manager": "4DF6J7K8L9M1N2B3V4C5X6Z7Q8W9E0R1T2Y3U4I5O6P7A8S9D0F1G2H"
+      },
+      {
+          "ASAID": 678901,
+          "creator": "1WERT2YUIO3PASDF4GHJK5LZX6CVBN7M8Q9WERT0YUIOP1ASDF2GHJK",
+          "metadata": {
+              "event": "Fashion Gala",
+              "location": "Paris, France",
+              "date": "2025-12-01",
+              "time": "19:00",
+              "seat": "VIP Front Row",
+              "description": "Exclusive VIP ticket for the Fashion Gala 2025 in Paris.",
+              "image_url": "https://images.unsplash.com/photo-1554139844-312275c0f7d4?auto=format&fit=crop&w=967&q=80"
+          },
+          "assetname": "FG2025VIP",
+          "unitname": "FGVIP",
+          "manager": "1WERT2YUIO3PASDF4GHJK5LZX6CVBN7M8Q9WERT0YUIOP1ASDF2GHJK"
+      },
+      {
+          "ASAID": 234567,
+          "creator": "3XCVBN7M8QWER9TYUIOP0ASDF3GHJK4LZXCV5BN6M8Q9WER0TYUI1OP2",
+          "metadata": {
+              "event": "Marathon 2025",
+              "location": "Boston, MA",
+              "date": "2025-04-18",
+              "time": "07:00",
+              "seat": "Participant",
+              "description": "Official entry to the Boston Marathon 2025.",
+              "image_url": "https://images.unsplash.com/photo-1532634896-26909d0d4b21?auto=format&fit=crop&w=967&q=80"
+          },
+          "assetname": "BM2025PART",
+          "unitname": "BMPART",
+          "manager": "3XCVBN7M8QWER9TYUIOP0ASDF3GHJK4LZXCV5BN6M8Q9WER0TYUI1OP2"
+      }
+    ]
+    
+  };
