@@ -1,13 +1,13 @@
 import React from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 import styles from './navStyles/styles';
-import Icon from 'react-native-vector-icons/Ionicons'; // 👈 Import Ionicons
+import Icon from 'react-native-vector-icons/Ionicons';
 
 export default function NavBar({ currentScreen, setCurrentScreen }) {
   const tabs = [
-    { name: 'MetricsScreen', icon: 'bar-chart-sharp' },   // Better Metrics icon
-    { name: 'HomeScreen', icon: 'home-sharp' },            // Better Home icon
-    { name: 'CreateScreen', icon: 'add-circle-sharp' },      // Better Create icon
+    { name: 'MetricsScreen', icon: 'bar-chart-sharp' },   
+    { name: 'HomeScreen', icon: 'home-sharp' },            
+    { name: 'CreateScreen', icon: 'add-circle-sharp' },      
   ];
 
   return (
@@ -20,7 +20,7 @@ export default function NavBar({ currentScreen, setCurrentScreen }) {
         >
           <Icon
             name={tab.icon}
-            size={24} // Matching size for button
+            size={24}
             color={currentScreen === tab.name ? '#0ff' : '#888'} // Active = neon cyan
           />
         </TouchableOpacity>
