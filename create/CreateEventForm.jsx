@@ -9,7 +9,7 @@ import {createAccount,getStoredAccount} from '../Account/createAccount';
 import {handleTrx} from '../Account/connectAccount';
 import { Button, Alert, ActivityIndicator } from 'react-native';
 import { createAssetTransaction } from '../Account/assetTrx';
-
+import { StatusBar } from "expo-status-bar";
 
 // 👇 must come at the very top before algosdk or anything using crypto
 import 'react-native-get-random-values';
@@ -149,6 +149,7 @@ const CreateEventForm = ({ setCurrentScreen }) => {
         <Text style={styles.buttonText}>BACK</Text>
       </TouchableOpacity>
     </View>
+    <StatusBar style="auto"/>
     </ScrollView>
 
   );
