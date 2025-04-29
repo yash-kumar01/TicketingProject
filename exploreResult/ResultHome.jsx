@@ -5,7 +5,7 @@ import styles from '../navStyles/resultStyles';
 import data from '../DataBase/result.json'; // Import JSON file
 import  TicketDetails  from './TicketDetails';
 import {handleTrx} from '../Account/connectAccount';
-
+import { StatusBar } from "expo-status-bar";
 export const ResultHomeContext = createContext();
 
 // Basic reusable components
@@ -47,6 +47,7 @@ const HomeScreen = ({ onSelectTicket }) => (
         />
       ))}
     </ScrollView>
+    <StatusBar style="auto"/>
   </View>
 );
 
