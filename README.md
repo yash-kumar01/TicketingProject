@@ -1,6 +1,6 @@
 # Ticketing Platform 📱 [front-end]
 **Design and development of a mobile application for ticketing on blockchain**
-![image alt](https://github.com/yash-kumar01/TicketingProject/blob/d11aa00eba69abf382f87bc32f04b99d4538ea24/demoApp.png)
+![image alt](https://github.com/yash-kumar01/TicketingProject/blob/31e6193bc788ce3fba4d6822f3a38505ad953732/finalappdesign.png)
 
 This project presents the development of a peer-to-peer (P2P) ticketing platform leveraging blockchain technology. The project aims to create a decentralized marketplace where users can create, buy, and trade event tickets securely and transparently, eliminating common issues such as fraud, scalping, and excessive fees.
 
