@@ -8,6 +8,7 @@ import AvailableDatePicker from '../home/AvailableDatePicker';
 import FormInput from '../home/FormInput';
 import { createAssetTransaction } from '../Account/assetTrx';
 import { Alert } from 'react-native';
+import { StatusBar } from "expo-status-bar";
 
 const CreateTicketForm = ({ setCurrentScreen }) => {
   const [loading, setLoading] = useState(false)
@@ -116,7 +117,9 @@ const CreateTicketForm = ({ setCurrentScreen }) => {
       
         </TouchableOpacity>
       </View>
+      <StatusBar style="auto"/>
     </ScrollView>
+    
   )
 };
 
