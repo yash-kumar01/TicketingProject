@@ -21,7 +21,7 @@ const CreateEventForm = ({ setCurrentScreen }) => {
     setLoading(true)
     try {
       await createAssetTransaction()
-      Alert.alert('Success', 'Asset created successfully!')
+      Alert.alert( 'Event created successfully!')
     } catch (error) {
       console.error(error)
       Alert.alert('Error', 'Something went wrong while creating the asset.')
@@ -52,7 +52,8 @@ const CreateEventForm = ({ setCurrentScreen }) => {
 
   const handleSubmit = () => {
     console.log("Event created with data:", formData);
-    handleCreateAsset()
+    Alert.alert("Event created successfully!");
+    // handleCreateAsset()
   };
   const handleAccountCreation = () => {
     createAccount()
@@ -140,11 +141,6 @@ const CreateEventForm = ({ setCurrentScreen }) => {
         <Text style={styles.buttonText}>CREATE</Text>
       </TouchableOpacity>)}
 
-
-      <TouchableOpacity style={styles.button} onPress={handleTrxButton}>
-      {/* <TouchableOpacity style={styles.button} onPress={handleSubmit}> */}
-        <Text style={styles.buttonText}>TRX</Text>
-      </TouchableOpacity>
 
       <TouchableOpacity
         style={styles.button}
