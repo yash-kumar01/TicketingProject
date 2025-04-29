@@ -37,6 +37,15 @@ export default StyleSheet.create({
         justifyContent: 'center',
         textAlign: 'center',
     },
+    titleMetrics: {  
+        color: '#0ff', // Neon cyan text
+        fontSize: 30,
+        fontWeight: 'bold', 
+        marginTop:5,
+        padding:0,
+        justifyContent: 'center',
+        textAlign: 'center',
+    },
 
     //CreateScreen
     createContainer: {
@@ -232,6 +241,25 @@ export default StyleSheet.create({
     color: '#0ff', // Neon cyan text
     marginBottom: 5,
   },
+  ticketNameMetrics: {
+    fontSize: 15,
+    fontWeight: 'bold',
+    color: '#0ff', // Neon cyan text
+    marginBottom: 5,
+  },
+  ticketMetrics: {
+    fontSize: 15,
+    fontWeight: 'bold',
+    color: '#0ff', // Neon cyan text
+    marginBottom: 5,
+    padding: 24,
+  },
+  ticketName: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#0ff', // Neon cyan text
+    marginBottom: 5,
+  },
   ticketPrice: {
     fontSize: 16,
     color: '#bbb', // Subtle gray text
@@ -289,4 +317,24 @@ export default StyleSheet.create({
     alignSelf: 'center', // Center horizontally
     marginBottom: 1, // Space between image and text
   },
+  algoImg: {
+    width: 100, // Adjust size as needed
+    height: 100, // Adjust size as needed
+    alignSelf: 'center', // Center horizontally
+    marginBottom: 1, // Space between image and text
+  },
+  border: {
+    borderWidth: 2,
+    borderColor: 'cyan',
+    borderRadius: 10,
+    padding: 10,
+    marginVertical: 10,
+    backgroundColor: '#0a0a0a', // Optional: dark background if your theme is dark
+    shadowColor: '#00ffff',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.3,
+    shadowRadius: 4,
+    elevation: 5, // For Android shadow
+  },
+  
 });
