@@ -5,7 +5,7 @@ import styles from '../navStyles/resultStyles';
 import data from '../DataBase/result.json'; // Import JSON file
 import { HomeData } from '../navigation/HomeScreen' 
 import { ResultHomeContext } from './ResultHome';
-
+import { StatusBar } from "expo-status-bar";
 // Ticket Details Screen
 const TicketDetails = () => {
     const {selectedTicket, handleBack,handleBuy} = useContext(ResultHomeContext);
@@ -31,6 +31,7 @@ const TicketDetails = () => {
       <TouchableOpacity style={styles.button} onPress={handleBack}>
         <Text style={styles.buttonText}>BACK</Text>
       </TouchableOpacity>
+      <StatusBar style="auto"/>
     </View>
 )
     };
