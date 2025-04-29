@@ -1,11 +1,13 @@
 import * as React from 'react';
 import { useState,useContext,createContext } from 'react';
-import { Image, SafeAreaView, ScrollView, Text, View, TouchableOpacity } from 'react-native';
+import { Image, SafeAreaView, ScrollView, Text, View, TouchableOpacity,Alert } from 'react-native';
 import styles from '../navStyles/resultStyles';
 import data from '../DataBase/result.json'; // Import JSON file
 import  TicketDetails  from './TicketDetails';
+import {handleTrx} from '../Account/connectAccount';
 
 export const ResultHomeContext = createContext();
+
 // Basic reusable components
 const Heading = (props) => (
     <Text style={styles.heading}>
@@ -50,6 +52,7 @@ const HomeScreen = ({ onSelectTicket }) => (
 
 // Main Result Component
 const ResultHome = () => {
+  
   const [selectedTicket, setSelectedTicket] = useState(null);
 
   const handleSelectTicket = (ticket) => {
@@ -59,13 +62,22 @@ const ResultHome = () => {
   const handleBack = () => {
     setSelectedTicket(null);
   };
-  const handleBuy = () => {
-    setSelectedTicket(null);
+  const handleBuy = async() => {
+    try {
+      await handleTrx()
+      Alert.alert('Success', 'Transaction successfully!')
+    } catch (error) {
+      console.error(error)
+      Alert.alert('Error', 'Something went wrong.')
+    } finally {
+      setSelectedTicket(null);
+    }
   };
 
   return (
     <ResultHomeContext.Provider value={{selectedTicket,handleBack,handleBuy}}>
     <SafeAreaView style={{ flex: 1}}>
+      
       {selectedTicket ? (
         <TicketDetails  />
       ) : (
