@@ -1,4 +1,4 @@
-# Ticketing Platform [front-end]📱
+# Ticketing Platform 📱 [front-end]
 **Design and development of a mobile application for ticketing on blockchain**
 ![image alt](https://github.com/yash-kumar01/TicketingProject/blob/d11aa00eba69abf382f87bc32f04b99d4538ea24/demoApp.png)
 
