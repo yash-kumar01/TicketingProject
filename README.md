@@ -1,4 +1,4 @@
-# P-2-P Ticketing Platform 📱 [front-end]
+# P2P Ticketing Platform 📱 [front-end]
 **Design and development of a mobile application for ticketing on blockchain**
 ![image alt](https://github.com/yash-kumar01/TicketingProject/blob/31e6193bc788ce3fba4d6822f3a38505ad953732/finalappdesign.png)
 
