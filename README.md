@@ -27,4 +27,5 @@ The mobile app is built using React-Native and JavaScript. As react-native does 
 - Review historical transactions related to an asset, account, or application through the historical transaction view.
   
 App interface allows the user to navigate through three main screens: Home, Create, Metrics. The Home-screen allows the user to explore and search for different tickets available in the market based on the selected event and other parameters. The user can see the details of these tickets and directly buy them. In Create Screen user can create new event or new ticket by filling the form. Metrics screen allows user to see his transaction history. It displays the details of transcations made and assets held my the account.
-**Future works** The main focus of this project is to develop front-end to provide the UI for performing all the operations, the data input that user gets shown while creating or buying ticket or event is currently hardcoded as it requires backend integration.
+
+**Future works:** The main focus of this project is to develop front-end that provide the UI for performing all the operations, the data input that user gets shown while creating or buying ticket or event is currently hardcoded as it requires backend integration.
