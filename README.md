@@ -4,7 +4,7 @@
 
 This project presents the development of a peer-to-peer (P2P) ticketing platform leveraging blockchain technology. The project aims to create a decentralized marketplace. Built with [React-native](https://reactnative.dev/), JavaScript and the official [Algorand SDK](https://developer.algorand.org/docs/sdks/javascript/), the app makes it convenient for users to create, buy, and trade event tickets securely and transparently, eliminating common issues such as fraud, scalping, and excessive fees.
 
-**📗 Overview:**
+# 📕 Overview:
 The platform utilizes [Algorand blockchain](https://algorandtechnologies.com/) to ensure the authenticity and ownership of tickets, providing a secure environment for peer-to-peer transactions. By decentralizing the ticketing process, the system gives control back to users, allowing them to interact directly without the need for intermediaries. Smart contracts govern transactions, ensuring that tickets are only transferred upon payment and that all parties adhere to the agreed terms. 
 
 # ✨ Key Features:
