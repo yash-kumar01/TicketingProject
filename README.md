@@ -2,7 +2,7 @@
 **Design and development of a mobile application for ticketing on blockchain**
 ![image alt](https://github.com/yash-kumar01/TicketingProject/blob/31e6193bc788ce3fba4d6822f3a38505ad953732/finalappdesign.png)
 
-This project presents the development of a peer-to-peer (P2P) ticketing platform leveraging blockchain technology. The project aims to create a decentralized marketplace. Built with [React-native](https://reactnative.dev/), JavaScript and the official [Algorand SDK](https://developer.algorand.org/docs/sdks/javascript/), the app makes it convenient for users to create, buy, and trade event tickets securely and transparently, eliminating common issues such as fraud, scalping, and excessive fees.
+This project presents the development of a peer-to-peer (P2P) ticketing platform leveraging blockchain technology. The project aims to create a decentralized marketplace making it convenient for users to create, buy, and trade event tickets securely and transparently, eliminating common issues such as fraud, scalping, and excessive fees.
 
 # 📎 Overview:
 The platform utilizes [Algorand blockchain](https://algorandtechnologies.com/) to ensure the authenticity and ownership of tickets, providing a secure environment for peer-to-peer transactions. By decentralizing the ticketing process, the system gives control back to users, allowing them to interact directly without the need for intermediaries. Smart contracts govern transactions, ensuring that tickets are only transferred upon payment and that all parties adhere to the agreed terms. 
@@ -29,9 +29,9 @@ The primary objective of this project is to develop front-end for a decentralize
 - **App.js:** The main App component
 
 # 🛠️ Built with
-- ReactNative
+- [React-native](https://reactnative.dev/)
 - JavaScript
-- Algorand SDK
+- [Algorand SDK](https://developer.algorand.org/docs/sdks/javascript/)
 
 # ⚙️ Setup requirement:
 - **Emulator:** Android studio emulator API 34 or 35. with internet connection enabled.
@@ -41,6 +41,5 @@ The primary objective of this project is to develop front-end for a decentralize
 
 # 🔍 Walkthrough:
 App interface allows the user to navigate through three main screens: Home, Create, Metrics. The Home-screen allows the user to explore and search for different tickets available in the market based on the selected event and other parameters. The user can see the details of these tickets and directly buy them. In Create Screen user can create new event or new ticket by filling the form. Metrics screen allows user to see his transaction history. It displays the details of transcations made and assets held my the account.
-
-# ⏳ Future works:
+**⏳ Future works:** 
 The main focus of this project is to develop front-end that provide the UI for performing all the operations, the data input that user gets shown while creating or buying ticket or event is currently hardcoded as it requires backend integration.
