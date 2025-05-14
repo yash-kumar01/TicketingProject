@@ -35,11 +35,9 @@ The primary objective of this project is to develop front-end for a decentralize
 
 # ⚙️ Setup requirement:
 - **Emulator:** Android studio emulator API 34 or 35. with internet connection enabled.
-- **Lora:** [Lora](lora.algokit.io) provides UI to visualie transaction operations using localnet.
+- **[Lora:](lora.algokit.io)** provides UI to visualie transaction operations using localnet.
 - **Localnet connection:** both for macOS and Windows - git, python, pipx, VSCode are necessary. On MacOS addiional requirement for HomeBrew and docker. 
-- ** 📡 Localnet Connection: ** 
- - to establish connection: 'algokit localnet start'
- - to start App: 'npm start'
+- **📡 Localnet Connection:**- to establish connection: 'algokit localnet start' - to start App: 'npm start'
 
 # 🔍 Walkthrough:
 App interface allows the user to navigate through three main screens: Home, Create, Metrics. The Home-screen allows the user to explore and search for different tickets available in the market based on the selected event and other parameters. The user can see the details of these tickets and directly buy them. In Create Screen user can create new event or new ticket by filling the form. Metrics screen allows user to see his transaction history. It displays the details of transcations made and assets held my the account.
